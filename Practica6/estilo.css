@@ -1,0 +1,59 @@
+#header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#fila{
+    flex-direction: row;
+    display: flex;
+}
+
+#columna{
+    flex-direction: column;
+}
+
+#menu{
+    align-self: flex-end;
+    display: inline;
+}
+
+#nombre{
+    font-size: 36px;
+}
+
+.item{
+    display: inline;
+}
+hr{
+    border: solid red;
+    background-color: red;
+    height: 1px;
+}
+
+#imagen{
+    clear: both;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5px;
+}
+
+#filaminis{
+    clear: both;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%
+}
+
+.columna{
+    margin: 20px;
+    width: 200px;
+    flex-direction: column;
+}
+#a{
+background-color: blue;
+}
